@@ -1,0 +1,2 @@
+2020-07-20 12:37:32,683 DEBUG o.e.l.SampleLspLauncher [main] Launching Sample Language Server now
+2020-07-20 12:38:00,206 DEBUG o.e.l.SampleLspLauncher [main] started listening to client

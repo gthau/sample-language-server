@@ -1,0 +1,158 @@
+2020-07-20 12:27:47,791 DEBUG o.e.l.SampleLspLauncher [main] Launching Sample Language Server now
+2020-07-20 12:27:47,939 DEBUG o.e.l.SampleLanguageServer [pool-2-thread-1] in SampleLanguageServer::initialize
+2020-07-20 12:27:47,950 DEBUG o.e.l.SampleLanguageServer [pool-2-thread-1] InitializeParams [
+  processId = 33100
+  rootPath = "E:\Dev\SampleLanguageServer"
+  rootUri = "file:///E:/Dev/SampleLanguageServer"
+  initializationOptions = null
+  capabilities = ClientCapabilities [
+    workspace = WorkspaceClientCapabilities [
+      applyEdit = true
+      workspaceEdit = WorkspaceEditCapabilities [
+        documentChanges = true
+        resourceChanges = null
+        resourceOperations = null
+        failureHandling = null
+      ]
+      didChangeConfiguration = DidChangeConfigurationCapabilities [
+        dynamicRegistration = false
+      ]
+      didChangeWatchedFiles = DidChangeWatchedFilesCapabilities [
+        dynamicRegistration = false
+      ]
+      symbol = SymbolCapabilities [
+        symbolKind = null
+        dynamicRegistration = false
+      ]
+      executeCommand = ExecuteCommandCapabilities [
+        dynamicRegistration = false
+      ]
+      workspaceFolders = null
+      configuration = null
+    ]
+    textDocument = TextDocumentClientCapabilities [
+      synchronization = SynchronizationCapabilities [
+        willSave = false
+        willSaveWaitUntil = false
+        didSave = true
+        dynamicRegistration = false
+      ]
+      completion = CompletionCapabilities [
+        completionItem = CompletionItemCapabilities [
+          snippetSupport = false
+          commitCharactersSupport = true
+          documentationFormat = null
+          deprecatedSupport = null
+          preselectSupport = null
+          tagSupport = null
+        ]
+        completionItemKind = null
+        contextSupport = false
+        dynamicRegistration = false
+      ]
+      hover = HoverCapabilities [
+        contentFormat = ArrayList (
+          "plaintext"
+        )
+        dynamicRegistration = false
+      ]
+      signatureHelp = SignatureHelpCapabilities [
+        signatureInformation = SignatureInformationCapabilities [
+          documentationFormat = ArrayList (
+            "plaintext"
+          )
+          parameterInformation = ParameterInformationCapabilities [
+            labelOffsetSupport = true
+          ]
+        ]
+        contextSupport = true
+        dynamicRegistration = false
+      ]
+      references = ReferencesCapabilities [
+        dynamicRegistration = false
+      ]
+      documentHighlight = DocumentHighlightCapabilities [
+        dynamicRegistration = false
+      ]
+      documentSymbol = DocumentSymbolCapabilities [
+        symbolKind = null
+        hierarchicalDocumentSymbolSupport = null
+        dynamicRegistration = false
+      ]
+      formatting = FormattingCapabilities [
+        dynamicRegistration = false
+      ]
+      rangeFormatting = RangeFormattingCapabilities [
+        dynamicRegistration = false
+      ]
+      onTypeFormatting = OnTypeFormattingCapabilities [
+        dynamicRegistration = false
+      ]
+      declaration = null
+      definition = DefinitionCapabilities [
+        linkSupport = null
+        dynamicRegistration = false
+      ]
+      typeDefinition = TypeDefinitionCapabilities [
+        linkSupport = null
+        dynamicRegistration = false
+      ]
+      implementation = ImplementationCapabilities [
+        linkSupport = null
+        dynamicRegistration = false
+      ]
+      codeAction = CodeActionCapabilities [
+        codeActionLiteralSupport = CodeActionLiteralSupportCapabilities [
+          codeActionKind = CodeActionKindCapabilities [
+            valueSet = ArrayList (
+              "quickfix",
+              "refactor",
+              "refactor.extract",
+              "refactor.inline",
+              "refactor.rewrite",
+              "source",
+              "source.organizeImports"
+            )
+          ]
+        ]
+        isPreferredSupport = null
+        dynamicRegistration = false
+      ]
+      codeLens = CodeLensCapabilities [
+        dynamicRegistration = false
+      ]
+      documentLink = DocumentLinkCapabilities [
+        tooltipSupport = null
+        dynamicRegistration = false
+      ]
+      colorProvider = null
+      rename = RenameCapabilities [
+        prepareSupport = null
+        dynamicRegistration = false
+      ]
+      publishDiagnostics = PublishDiagnosticsCapabilities [
+        relatedInformation = null
+        tagSupport = Either [
+          left = true
+          right = null
+        ]
+        versionSupport = null
+      ]
+      foldingRange = FoldingRangeCapabilities [
+        rangeLimit = null
+        lineFoldingOnly = false
+        dynamicRegistration = false
+      ]
+      semanticHighlightingCapabilities = null
+      typeHierarchyCapabilities = null
+      callHierarchy = null
+      selectionRange = null
+    ]
+    experimental = null
+  ]
+  clientName = null
+  clientInfo = null
+  trace = "off"
+  workspaceFolders = null
+]
+2020-07-20 12:27:47,971 DEBUG o.e.l.SampleLspLauncher [main] started listening to client
