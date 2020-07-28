@@ -11,7 +11,7 @@ out/*
 *.vsix
 *.jar
 .antlr
-*/build/*
+**/build/*
 *.class
 
 ## Ignore Visual Studio temporary files, build results, and
