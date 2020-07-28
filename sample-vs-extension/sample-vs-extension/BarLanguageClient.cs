@@ -33,13 +33,14 @@ namespace SampleLanguageExtension
             await Task.Yield();
 
             //string workingDir = Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location);
+            string jar = Path.Combine("language-server", "lsp-server-1.0-SNAPSHOT-all.jar");
             string jarNoLogging = Path.Combine("language-server", "lsp-server-1.0-SNAPSHOT-all-nologging.jar");
             string jarLog4j = Path.Combine("language-server", "lsp-server-1.0-SNAPSHOT-all-log4j.jar");
             string jarLogback = Path.Combine("language-server", "lsp-server-1.0-SNAPSHOT-all-logback.jar");
             
             ProcessStartInfo info = new ProcessStartInfo();
             info.FileName = "java.exe";
-            info.Arguments = "-jar " + jarLogback;
+            info.Arguments = "-jar " + jar;
             //info.WorkingDirectory = workingDir;
             info.RedirectStandardInput = true;
             info.RedirectStandardOutput = true;

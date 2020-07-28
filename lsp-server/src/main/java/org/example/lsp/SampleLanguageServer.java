@@ -31,7 +31,7 @@ class SampleLanguageServer implements LanguageServer, LanguageClientAware {
 
         res.getCapabilities().setTextDocumentSync(TextDocumentSyncKind.Full);
         res.getCapabilities().setHoverProvider(true);
-        res.getCapabilities().setDefinitionProvider(false);
+        res.getCapabilities().setDefinitionProvider(true);
         res.getCapabilities().setDocumentLinkProvider(new DocumentLinkOptions(false));
         res.getCapabilities().setDocumentSymbolProvider(false);
         res.getCapabilities().setReferencesProvider(false);
