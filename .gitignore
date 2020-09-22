@@ -9,7 +9,6 @@ out/*
 .gitconfig
 .viminfo
 *.vsix
-*.jar
 .antlr
 **/build/*
 *.class
